@@ -1,0 +1,117 @@
+{
+    "basic_info": {
+      "description_header": "Hi",
+      "description": "👋 Hello! Welcome to my page that’s all about me. My name is Mariam Ali, but a lot of people call me Muna, so feel free to do so. I love listening to music, wasting my time on twitter, and doing adventurous things with my friends.💜",
+      "section_name": {
+        "about": "About me",
+        "projects": "Projects",
+        "skills": "Skills",
+        "experience": "Experience"
+      }
+    },
+    "projects": [
+      {
+        "title": "Paw's Date",
+        "startDate": "2021",
+        "description": "Paw's date is an app developed by a group of pet lovers who enjoy making new friends and would like to extend the same opportunity to their pets. Create and account, add a little description about your pet, upload a profile picture and start matching! Plus benefit: Great memory for the dog name but never remember the owner's? Use the app to remind yourslef!",
+        "images": [
+          "https://raw.githubusercontent.com/alimariam12/Reacts-Child/main/client/public/screen-by-screen/homePage.png",
+          "https://user-images.githubusercontent.com/71665063/150627745-7eb7cc4e-30a6-44d0-b8e4-a5c5f25fb32b.png"
+        ],
+        "url": "https://github.com/alimariam12/Reacts-Child",
+        "technologies": [
+          {
+            "class": "devicon-angularjs-plain",
+            "name": "Angular"
+          },
+          {
+            "class": "devicon-typescript-plain",
+            "name": "TypeScript"
+          },
+          {
+            "class": "devicon-csharp-plain",
+            "name": "C#"
+          }
+        ]
+      },
+      {
+        "title": "Burger App",
+        "startDate": "2020",
+        "description": "For this project, we need to create a burger devouring app with MySQL, Node, Express, and ORM. We also need to use the MVC design pattern with Node and MySQL to query and route data and Handlebars to generate the HTML.",
+        "images": [
+          "https://user-images.githubusercontent.com/71665063/106550874-a3940600-64d9-11eb-9fac-b42928522360.png",
+          "images/portfolio/photography/p2.jpg"
+        ],
+        "url": "https://github.com/alimariam12/burger",
+        "technologies": [
+          {
+            "class": "devicon-handlebars-plain",
+            "name": "Handlebars"
+          },
+          {
+            "class": "devicon-javascript-plain",
+            "name": "JavaScript"
+          }
+        ]
+      },
+      {
+        "title": "Workout Tracker",
+        "startDate": "2021",
+        "description": "For this project, we need to create workout tracker and we are required to create Mongo database with a Mongoose schema and handle routes with Express. We also need to use the MVC design pattern with Node and MySQL to query and route data and Handlebars to generate the HTML. This app should allow user to view, create, and track their daily workouts. Users should be able to track the name, type, weight, sets, reps, and duration of exercise.",
+        "images": [
+          "https://user-images.githubusercontent.com/71665063/107317251-f03e8a80-6a5f-11eb-930a-406b6313fd3f.png",
+          "https://user-images.githubusercontent.com/71665063/107317246-ee74c700-6a5f-11eb-8779-8973c9012988.png"
+        ],
+        "url": "https://github.com/alimariam12/Workout-Tracker",
+        "technologies": [
+          {
+            "class": "devicon-angularjs-plain",
+            "name": "Angular"
+          },
+          {
+            "class": "devicon-typescript-plain",
+            "name": "TypeScript"
+          },
+          {
+            "class": "devicon-csharp-plain",
+            "name": "C#"
+          }
+        ]
+      }
+    ],
+    "experience": [
+      {
+        "company": "Student",
+        "title": "University of Minnesota - Coding BootCamp",
+        "years": "09.2020 - 03.2021",
+        "mainTech": [
+          "Full Stack"
+        ],
+        "technologies": [
+         
+        ]
+      },
+      {
+        "company": "Math and Physics",
+        "title": "University of Minnesota",
+        "years": "09.2019 - 05.2020",
+        "mainTech": [
+          "UnderGrad"
+        ],
+        "technologies": [
+
+        ]
+      }, 
+      {
+        "company": "Math",
+        "title": "Concordia University",
+        "years": "09.2016 - 05.2018",
+        "mainTech": [
+          "UnderGrad"
+        ],
+        "technologies": [
+
+        ]
+      }
+    ]
+  }
