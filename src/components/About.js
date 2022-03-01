@@ -6,7 +6,7 @@ import reactIcon from "@iconify/icons-logos/react";
 class About extends Component {
   render() {
     if (this.props.sharedBasicInfo) {
-      var profilepic = "https://user-images.githubusercontent.com/71665063/151103401-f8570141-9dab-46b2-9d02-76178078c7ee.png" ;
+      var profilepic = "https://user-images.githubusercontent.com/71665063/156253666-2b8a5652-428a-4f02-b49e-2af196d838bc.jpg" ;
     }
     if (this.props.resumeBasicInfo) {
       var sectionName = this.props.resumeBasicInfo.section_name.about;
@@ -21,19 +21,16 @@ class About extends Component {
             <span>{sectionName}</span>
           </h1>
           <div className="row center mx-auto mb-5">
-            <div className="col-md-4 mb-5 center">
+            <div className="col-md-4 mb-6 center">
               <div className="polaroid">
                 <span style={{ cursor: "auto" }}>
                   <img
                     height="250px"
+                    width="100%"
                     src={profilepic}
                     alt="Avatar placeholder"
                   />
                  
-                  <Icon
-                    icon={reactIcon}
-                    style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
-                  />
                  
                 </span>
               </div>
